@@ -1,0 +1,46 @@
+{
+  "amount_in": "1000000000000000000",
+  "asset_in": {
+    "token": "plume",
+    "token_type": {
+      "__typename": "NativeTokenType",
+      "native": {
+        "__typename": "NativeToken",
+        "denom": "plume"
+      }
+    }
+  },
+  "slippage": "500",
+  "sender": {
+    "address": "0x2811925864db0a24b711453bbf4b1383706ea87b",
+    "chain_uid": "plume"
+  },
+  "cross_chain_addresses": [
+    {
+      "user": {
+        "address": "0x2811925864db0a24b711453bbf4b1383706ea87b",
+        "chain_uid": "megaeth"
+      },
+      "limit": {
+        "less_than_or_equal": "8975559773729178"
+      }
+    }
+  ],
+  "partnerFee": {
+    "partner_fee_bps": 10,
+    "recipient": ""
+  },
+  "swap_path": {
+    "path": [
+      {
+        "route": ["plume", "euclid", "eth"],
+        "dex": "euclid",
+        "amount_in": "1000000000000000000",
+        "amount_out": "8975559773729178",
+        "amount_out_for_hops": ["euclid: 192054", "eth: 8975559773729178"],
+        "chain_uid": "vsl"
+      }
+    ],
+    "total_price_impact": "0.00"
+  }
+}
